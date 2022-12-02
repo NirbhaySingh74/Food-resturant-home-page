@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+    
+  }
+
+
+
+  body {
+    background-image: url(./assets/background\ img.png);
+    background-position: center;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-color: rgba(33, 37, 65, 0.74);
+    height: 100%;
+    width: 100%;
+  } 
+  
+  /* ---------- NAVBAR ------------ */
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+  }
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  font-family: 'Oxanium' cursive;
+}
+
+.list li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 25px;
+  color: rgb(214, 193, 87);
+}
+
+.button-small {
+  padding: 10px 35px;
+  background-color: rgb(200, 41, 41);
+  border: none;
+  
+  font-size: 20px;
+}
+button {
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.button-small:hover {
+  background-color: black;
+  color: #ffffff;
+}
+
+  /* ---------- HERO ------------ */
+
+  .hero {
+    position: relative;
+  }
+  
+.hero-heading {
+  position: relative;
+  letter-spacing: 5px;
+  text-align: center;
+  font-size: 130px;
+  color: rgb(199, 188, 33);
+  top: 80px;
+  left: 30px;
+}
+
+.button-large {
+  position: absolute;
+  top: 600px;
+  margin-left: 40%;
+  color: #ffffff;
+  background-color: rgb(200, 41, 41);
+  border: none;
+  padding: 20px 60px;
+}
+
+.button-large:hover {
+  background-color: black;
+  color: #ffffff;
+}
+
+.bottom {
+  position: absolute;
+  top: 610px;
+  left: 1160px;
+}
+
+
+
+
+
+  
